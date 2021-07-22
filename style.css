@@ -1,0 +1,13 @@
+body {
+    background-image: url("https://smartcanucks.ca/wp-content/uploads/2016/03/12768382_1123321891020311_7080501328221491097_o.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ 
+h1{
+    color:red;
+   }
+p{
+
+ color: blue;
+}
