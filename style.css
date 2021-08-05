@@ -1,11 +1,32 @@
+
 body{
-    background-image: url("https://smartcanucks.ca/wp-content/uploads/2016/03/12768382_1123321891020311_7080501328221491097_o.jpg");
+    background-image: url("https://cdn.britannica.com/08/177308-050-94D9D6BE/Food-Pizza-Basil-Tomato.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+    width:100%;
+  
 }
+.header{
+  background-color:yellowgreen;
+  padding: 0;
+}
+.header a{
+  float: center;
+  color: darkmagenta;
+  text-align: left;
+  text-decoration:none;
+  font-family: serif;
+
+}
+.header a.logo {
+  font-size: 25px;
+  font-weight:bold;
+  
+}
+
 .navbar ul{
   list-style: none;
-  background: purple;
   padding: 0;
   margin: 0;
   text-align: right;
@@ -14,27 +35,58 @@ body{
 } 
 .navbar li{
   display: inline-block;
-  float: right;
+  
 }
 .navbar a{
    text-decoration: none;
-   color: yellow;
-   width: 70px;
+   color: darkblue;
+   width: 90px;
    display: block;
-   padding: 25px 20px; 
+   padding: 10px; 
    text-transform: uppercase;
    font-weight: bold;
    font-family: arial;
-   text-align: left;
+   text-align: center;
    font-size: 15px;
+
  }
  .navbar a:hover{
-   background: black;
-
+   background-color: #ddd;
+   color:black;
 
  }
+ 
+
+ .button{
+   font-size: 16px;
+   padding: 16px 32px;
+   border-radius: 16px;
+   display: inline-block;
+   cursor: pointer;
+   margin: 4px 2px;
+
+ }
+ #btn{
+  padding: 20px 40px 20px 40px;
+  color:red;
+ }
+
+ #btntwo{
+  display: inline;
+  padding:20px 40px 20px 40px;
+  color: red;
+}
+
+ #container{
+  text-align: center;
+ 
+ }
+ .button:hover{
+   background-color:black;
+ }
+ 
 h1{
-    color:red;
+    color:darkblue;
    }
 p{
 
